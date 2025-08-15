@@ -1,0 +1,31 @@
+{
+    "logs": {
+        "level": "debug",
+        "transports": {
+            "console": {
+                "enabled": false
+            },
+            "file": {
+                "enabled": false,
+                "name": "lseg-data-lib.log"
+            }
+        }
+    },
+    "sessions": {
+        "default": "platform.ldp",
+        "platform": {
+            "ldp": {
+                "app-key": "App-Key",
+                "username": "V1 Machine-ID",
+                "password": "V1 Password",
+                "signon_control":true
+            },
+            "ldpv2":{
+                "client_id": "V2 Client-ID",
+                "client_secret": "V2 Client-Secret",
+                "signon_control":true,
+                "app-key": ""
+            }
+        }
+    }
+}
